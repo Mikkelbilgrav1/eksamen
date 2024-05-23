@@ -10,13 +10,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.venstre-nav {
+    font-family: "Big Shoulders Text";
+}
+
+.højre-nav {
+    font-family: "Big Shoulders Text";
+    display: flex;
 }
 
 .link {
     text-decoration: none;
     flex-wrap: nowrap;
+    color: black;
+    padding: 5%;
 }
 
 

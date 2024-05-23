@@ -1,9 +1,17 @@
+/** BODY **/ 
+body {
+    margin: 0;
+}
+
+
 /** NAV BAR **/
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .link {
@@ -13,6 +21,56 @@
 
 
 /** FOOTER **/
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(1, 17, 1);
+    align-content: flex-start;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+}
+
+.logo-billede {
+    color: white;
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.liste-to {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.liste, .liste-to {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sociale-medier {
+    display: flex;
+}
+
+.sociale-logoer {
+    height: auto;
+    width: auto;
+    color: white;
+}
+
 
 
 /** BREAKPOINTS iphone 14 pro (430 px) & desktop (1440 px) **/

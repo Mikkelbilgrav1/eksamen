@@ -12,16 +12,16 @@
     <div class="hero-image">
     <header class="navbar">
         <section class="venstre-nav">
-            <h1>ZEROBUZZ BREW</h1>
+            <a href="index.html" class="link">ZEROBUZZ BREW</a>
         </section>
         
-        <section class="højre-nav">
+        <li class="højre-nav">
             <a href="index.html" class="link">FORSIDE</a>
             <a href="sortiment.html" class="link">SORTIMENT</a>
-            <a href="alkoholfrie-ol.html" class="link">ALKOHOLFRIE ØL</a>
+            <a href="alkoholfrie-ol.html" class="link">ALKOHOLFRIE_ØL</a>
             <a href="billeder.html" class="link">BILLEDER</a>
-            <a href="om-os.html" class="link">OM OS</a>
-        </section>
+            <a href="om-os.html" class="link">OM_OS</a>
+        </li>
     </header>
 
     <main>
@@ -33,14 +33,8 @@
             
         <section class="forside-knap-og-tekst">
             <Button class="forside-knap">
-                <article>
-                    <p class="forside-knap-tekst">
-                        Læs mere
-                    </p>
-                </article>
-                <figure class="forside-knap-pil">
-                    <img src="#" alt="Pil">
-                </figure>
+                <a href="om-os.html" class="link-pil">LÆS MERE 
+                    <span class="knap-pil">➔</span></a>
             </Button>
 
             <article>
@@ -57,7 +51,7 @@
 
         <!-- Under forside -->
         <section class="underforside">
-            <h1 class="underforside-overskrift">Udforsk vores hjemmeside</h1>
+            <h2 class="underforside-overskrift">Udforsk vores hjemmeside</h2>
             <article>
                 <p class="underforside-tekst">
                     Dyk ned i et væld af spændende og informative sektioner omkring vores sortiment, informationer og en masse mere!
@@ -68,9 +62,10 @@
 
         <!-- Første "læs mere" boks -->
         <section class="boks">
-            <img src="img/forside-faerdig.webp" class="billede" alt="Forside billede">
-
-            <section class="boks-beskrivelse">
+            <div class="boks-billede">
+            <img src="img/forside-faerdig.webp" class="billede-et" alt="Forside billede">
+            </div>
+            <div class="boks-beskrivelse">
             <h3 class="boks-overskrift">Sortiment</h3>
             <article>
                 <p class="boks-tekst">
@@ -79,23 +74,18 @@
             </article>
             <button class="knap">
                 <article>
-                    <p class="knap-tekst">
-                        Læs mere
-                    </p>
-                </article>
-            
-                <figure class="knap-pil">
-                    <img src="#" alt="Pil">
-                </figure>
+                    <a href="sortiment.html" class="link-pil">LÆS MERE 
+                        <span class="knap-pil">➔</span></a>
             </button>
-        </section>
+            </div>
         </section>
 
         <!-- Anden "læs mere" boks -->
         <section class="boks">
-            <img src="img/mennesker.webp" class="billede" alt="Personer der hopper">
-
-        <section class="boks-beskrivelse">
+            <div class="boks-billede">           
+            <img src="img/mennesker.webp" class="billede-to" alt="Personer der hopper">
+            </div>
+        <div class="boks-beskrivelse">
             <h3 class="boks-overskrift">Information</h3>
             <article>
                 <p class="boks-tekst">
@@ -103,25 +93,19 @@
                 </p>
             </article>
             <button class="knap">
-                <article>
-                    <p class="knap-tekst">
-                        Læs mere
-                    </p>
-                </article>
-            
-                <figure class="knap-pil">
-                    <img src="#" alt="Pil">
-                </figure>
+                <a href="alkoholfrie-ol.html" class="link-pil">LÆS MERE 
+                    <span class="knap-pil">➔</span></a>
             </button>
-        </section>
+        </div>
         </section>
 
         <!-- Tredje "læs mere" boks -->
 
         <section class="boks">
-            <img src="img/oller.webp" class="billede" alt="to glas øl">
-
-        <section class="boks-beskrivelse">
+            <div class="boks-billede">
+            <img src="img/oller.webp" class="billede-tre" alt="to glas øl">
+            </div>
+        <div class="boks-beskrivelse">
             <h3 class="boks-overskrift">Drikkevaner</h3>
             <article>
                 <p class="boks-tekst">
@@ -129,39 +113,32 @@
                 </p>
             </article>
             <button class="knap">
-                <article>
-                    <p class="knap-tekst">
-                        Læs mere
-                    </p>
-                </article>
-            
-                <figure class="knap-pil">
-                    <img src="#" alt="Pil">
-                </figure>
+                <a href="drikkevaner.html" class="link-pil">LÆS MERE 
+                <span class="knap-pil">➔</span></a>
             </button>
-        </section>
+        </div>
         </section>
 
 
         <!-- footer -->
 
         <section class="footer">
-        <figure class="Logo">
-            <img src="#" class="logo-billede" alt="Logo">
-        </figure>
+        <div class="logo">
+            <img src="img/logo-faerdig-webp.webp" class="logo-billede" alt="Logo">
+        </div>
 
         <ul class="liste">
-            <li>Zerobuzz Brew</li>
-            <li>Danmark</li>
-            <li>Adresse</li>
-            <li>By</li>
-            <li>Tlf. nr. +45 1234 5678</li>
+            <li class="liste-tekst">Zerobuzz Brew</li>
+            <li class="liste-tekst">Danmark</li>
+            <li class="liste-tekst">Adresse</li>
+            <li class="liste-tekst">By</li>
+            <li class="liste-tekst">Tlf. nr. +45 1234 5678</li>
         </ul>
 
         <ul class="liste-to">
-            <li>Om Os</li>
-            <li>Kontakt Os</li>
-            <li>&copy; Copyright</li>
+            <li class="liste-tekst">Om Os</li>
+            <li class="liste-tekst">Kontakt Os</li>
+            <li class="liste-tekst">&copy; Copyright</li>
         </ul>
 
         <ul class="sociale-medier">

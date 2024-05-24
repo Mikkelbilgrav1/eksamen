@@ -23,7 +23,6 @@ Open Sans
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
 }
 
 .forside-overskrift {
@@ -33,14 +32,26 @@ Open Sans
 
 .forside-knap-og-tekst {
     display: flex;
-    align-items: top;
+    flex-direction: row;
+    align-items: center;
+}
+
+.forside-knap-tekst {
+    display: flex;
+    align-items: center;
+    font-family: 'open sans';
+    font-size: 15px;
+}
+
+.forside-knap-pil {
+    font-size: 30px;
 }
 
 .forside-knap {
     display: flex;
-    height: 50%;
-    width: auto;
-    margin: 2%;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
 }
 
 .forside-tekst {
@@ -48,6 +59,8 @@ Open Sans
     font-size: 20px;
     margin-left: 10%;
     max-width: 90ch;
+    display: flex;
+    align-items: center;
 }
 
 .underforside {
@@ -55,35 +68,88 @@ Open Sans
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-top: 5%;
 }
 
 .underforside-overskrift {
     font-family: 'big shoulders text';
     font-size: 45px;
+    margin: 0;
 }
+
 .underforside-tekst {
     font-family: "gruppo";
     font-size: 25px;
     max-width: 55ch;
+    margin-top: 2%;
 }
 
+/**
 .boks {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     margin: 5%;
 }
-.billede {
-    width: 26%;
+
+
+.boks-billede {
+    max-width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .boks-beskrivelse {
     display: flex;
+    flex: 2;
     flex-direction: column;
     align-items: center;
     max-width: 90ch;
     background-color: #797878;
+    padding: 20px;
+}
+**/
+
+/* CSS stilarter */
+.boks {
+display: flex;
+align-items: stretch; /* Sørger for at boksene har samme højde */
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 5%;
+margin-bottom: 10%;
+}
+  
+.boks-billede {
+flex: 1; /* Sørger for at billedet tager op 1/3 af boksen */
+display: flex;
+align-items: center; /* Centrerer billedet vertikalt */
+justify-content: center; /* Centrerer billedet horisontalt */
+height: auto;
+width: 100%;
+}
+  
+.boks-billede img {
+max-width: 100%; /* Sørger for at billedet ikke bliver større end boksen */
+height: auto; /* Sørger for at billedet beholder sin proportion */
+}
+  
+.boks-beskrivelse {
+flex: 2; /* Sørger for at beskrivelsen tager op 2/3 af boksen */
+display: flex;
+flex-direction: column; /* Sørger for at beskrivelsen er stakket vertikalt */
+align-items: center; /* Centrerer beskrivelsen horisontalt */
+justify-content: center; /* Centrerer beskrivelsen vertikalt */
+padding-left: 100px; /* Tilføjer padding til beskrivelsen */
+padding-right: 100px;
+background-color: #797878;
+}
+
+.billede-et {
+    width: fit-content;
 }
 
 .boks-overskrift {
@@ -94,14 +160,22 @@ Open Sans
 .boks-tekst {
     font-family: 'average';
     font-size: 25px;
+    max-width: 60ch;
 }
 
 .knap {
     display: flex;
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
-.knap-tekst {
-    font-family: 'average';
+.link-pil {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Average';
     font-size: 15px;
 }
 

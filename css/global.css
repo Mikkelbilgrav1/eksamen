@@ -1,3 +1,14 @@
+/** 
+FONTS: 
+Average
+Big Shoulders Text
+Gruppo
+Open Sans 
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Average&family=Big+Shoulders+Text:wght@100..900&family=Gruppo&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 /** BODY **/ 
 body {
     margin: 0;
@@ -11,25 +22,31 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 15%;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
 .venstre-nav {
     font-family: "Big Shoulders Text";
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .højre-nav {
     font-family: "Big Shoulders Text";
     display: flex;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .link {
     text-decoration: none;
-    flex-wrap: nowrap;
     color: black;
-    padding: 5%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    padding-right: 8%;
 }
 
 
@@ -41,15 +58,16 @@ body {
     background-color: rgb(1, 17, 1);
     align-content: flex-start;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     justify-content: space-around;
-    padding-left: 30%;
-    padding-right: 30%;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .logo {
     height: auto;
-    width: auto;
+    width: 15%;
 }
 
 .logo-billede {
@@ -62,6 +80,10 @@ body {
     color: white;
 }
 
+.liste-tekst {
+    padding-bottom: 12%;
+}
+
 .liste-to {
     display: flex;
     flex-direction: column;
@@ -71,7 +93,6 @@ body {
 .liste, .liste-to {
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
 .sociale-medier {
@@ -89,13 +110,4 @@ body {
 /** BREAKPOINTS iphone 14 pro (430 px) & desktop (1440 px) **/
 
 
-/** 
-FONTS: 
-Average
-Big Shoulders Text
-Gruppo
-Open Sans 
-**/
-
-@import url('https://fonts.googleapis.com/css2?family=Average&family=Big+Shoulders+Text:wght@100..900&family=Gruppo&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 

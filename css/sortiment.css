@@ -50,7 +50,6 @@
     .boks {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         margin-bottom: 10%;
         padding-left: 5%;
@@ -59,11 +58,14 @@
 
     .boks img {
         width: 100%;
-        padding-bottom: 4%;
+        max-width: 100%;
+        height: 100%;
+        max-height: max-content;
+        border: 2px, solid black;
+        object-position: cover;
     }
 
     .boks h3 {
-        padding-bottom: 2%;
         font-family: 'open sans';
         font-size: 1.5rem;
     }
@@ -91,6 +93,34 @@
         color: white;
         font-family: 'Average';
         font-size: 1.5rem;
+    }
+
+    .heading h3 {
+        font-size: 3em;
+        font-weight: bolder;
+        padding-bottom: 1%;
+        border-bottom: 3px solid #222;
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        font-family: 'open sans';
+    }
+
+    .heading h3 span {
+        font-weight: 100;
+    }
+
+    .heading {
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .heading {
+        padding-bottom: 50px;
     }
     
 }
@@ -143,11 +173,19 @@
 
     .tekstboks p {
         font-family: 'Open sans';
-        font-size: 1rem;
+        font-size: 1.5rem;
+        padding: 5%;
+        font-weight: 700;
     }
 
     .tekstboks-og-display-bokse {
         display: flex;
+    }
+
+    .kasse {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .display-bokse {
@@ -159,9 +197,8 @@
     .boks {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10%;
+        justify-content: space-between;
+        margin-bottom: 5%;
         padding-left: 1%;
         padding-right: 1%;
         width: 33%;
@@ -170,11 +207,14 @@
 
     .boks img {
         width: 100%;
-        padding-bottom: 4%;
+        max-width: 100%;
+        height: 100%;
+        max-height: max-content;
+        border: 2px, solid black;
+        object-position: cover;
     }
 
     .boks h3 {
-        padding-bottom: 2%;
         font-family: 'open sans';
         font-size: 1.5rem;
     }
@@ -205,5 +245,32 @@
         font-size: 1.5rem;
     }
     
+    .heading h3 {
+        font-size: 3em;
+        font-weight: bolder;
+        padding-bottom: 1%;
+        border-bottom: 3px solid #222;
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        font-family: 'open sans';
+    }
+
+    .heading h3 span {
+        font-weight: 100;
+    }
+
+    .heading {
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .heading {
+        padding-bottom: 50px;
+    }
 
 }

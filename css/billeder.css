@@ -117,6 +117,7 @@
         font-weight: bolder;
         padding-bottom: 10px;
         border-bottom: 3px solid #222;
+        font-family: 'open sans';
     }
 
     .beholder .heading h3 span {

@@ -28,12 +28,16 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+
+    .artikel h1 h3 p {
         padding-left: 5%;
         padding-right: 5%;
     }
 
     .artikel img {
         width: 100%;
+        display: none;
     }
 
     .artikel-boks {
@@ -61,6 +65,35 @@
         font-family: 'average';
         font-size: 1.5rem;
         padding-top: 2%;
+    }
+
+    .heading h3 {
+        font-size: 3em;
+        font-weight: bolder;
+        padding-bottom: 1%;
+        border-bottom: 3px solid #222;
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        font-family: 'open sans';
+    }
+
+    .heading h3 span {
+        font-weight: 100;
+        padding-left: 2%;
+    }
+
+    .heading {
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .heading {
+        padding-bottom: 50px;
     }
 }
 
@@ -96,7 +129,7 @@
         align-items: center;
         width: 100%;
         padding-left: 20%;
-        padding-right: 5%;
+        padding-right: 20%;
     }
 
     .artikel img {
@@ -110,5 +143,52 @@
         align-items: center;
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    .artikel-boks h1 {
+        font-family: 'Open sans';
+        font-size: 2rem;
+        padding-top: 2%;
+    }
+
+    .artikel-boks h3 {
+        font-family: 'open sans';
+        font-size: 1.5rem;
+        padding-top: 2%;
+    }
+
+    .artikel-boks p {
+        font-family: 'average';
+        font-size: 1.5rem;
+        padding-top: 2%;
+    }
+
+    .heading h3 {
+        font-size: 3em;
+        font-weight: bolder;
+        padding-bottom: 1%;
+        border-bottom: 3px solid #222;
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        font-family: 'open sans';
+    }
+
+    .heading h3 span {
+        font-weight: 100;
+        padding-left: 2%;
+    }
+
+    .heading {
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .heading {
+        padding-bottom: 50px;
     }
 }

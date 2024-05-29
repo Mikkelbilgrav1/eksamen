@@ -54,7 +54,7 @@ Open Sans
     align-items: center;
     width: 30%;
     padding: 2%;
-    background-color: black;
+    background-color: #154106;
     justify-content: center;
     border-radius: 40px;
 }
@@ -155,7 +155,7 @@ align-items: center; /* Centrerer beskrivelsen horisontalt */
 justify-content: center; /* Centrerer beskrivelsen vertikalt */
 padding-left: 5%; /* Tilføjer padding til beskrivelsen */
 padding-right: 5%;
-background-color: #f2f2f2;
+background-color: #e2e2e2;
 }
 
 .billede-et {
@@ -180,7 +180,7 @@ background-color: #f2f2f2;
     margin: 5%;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #154106;
     width: 75%;
     padding: 1%;
     border-radius: 40px;
@@ -190,8 +190,8 @@ background-color: #f2f2f2;
     text-decoration: none;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-family: 'Average';
+    color: black;
+    font-family: 'open sans';
     font-size: 1.5rem;
 }
 
@@ -223,7 +223,7 @@ background-color: #f2f2f2;
         margin-top: 5%;
         width: 180%;
         padding: 15%;
-        background-color: black;
+        background-color: #154106;
         justify-content: center;
     }
 
@@ -261,7 +261,7 @@ background-color: #f2f2f2;
     }
 
     .knap{
-        background-color: black;
+        background-color: #154106;
         width: 100%;
         padding: 5%;
     }
@@ -278,8 +278,4 @@ background-color: #f2f2f2;
         font-size: 3rem;
         padding-bottom: 2%;
     }
-
-
-
-
 }

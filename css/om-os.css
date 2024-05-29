@@ -28,39 +28,53 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+
+    .artikel h1 h3 p {
         padding-left: 5%;
         padding-right: 5%;
     }
 
     .artikel img {
         width: 100%;
+        padding-bottom: 2%;
     }
 
     .artikel-boks {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         padding-left: 10%;
         padding-right: 10%;
     }
 
     .artikel-boks h1 {
         font-family: 'Open sans';
+        font-size: 2.5rem;
+        padding-top: 2%;
+        text-align: center;
+    }
+
+    .artikel-boks h2 {
+        font-family: 'open sans';
         font-size: 2rem;
         padding-top: 2%;
+        padding-bottom: 3%;
+        font-weight: 300;
+        text-align: center;
     }
 
     .artikel-boks h3 {
-        font-family: 'open sans';
-        font-size: 1.5rem;
-        padding-top: 2%;
+        font-size: 2rem;
+        font-family: 'Open sans';
+        padding-bottom: 2%;
     }
 
     .artikel-boks p {
         font-family: 'average';
         font-size: 1.5rem;
-        padding-top: 2%;
+        padding-bottom: 10%;
+        padding-top: 1%;
     }
 
     .heading h3 {
@@ -94,7 +108,115 @@
 }
 
 
-/* @media only screen and (min-width: 430px) */
+@media only screen and (min-width: 430px) {
+.baggrund {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.baggrunds-billede {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.underforside {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'open sans';
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.artikel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.artikel h1 h3 p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.artikel img {
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.artikel-boks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.artikel-boks h1 {
+    font-family: 'Open sans';
+    font-size: 2.5rem;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.artikel-boks h2 {
+    font-family: 'open sans';
+    font-size: 2rem;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.artikel-boks h3 {
+    font-size: 2rem;
+    font-family: 'Open sans';
+    padding-bottom: 2%;
+}
+
+.artikel-boks p {
+    font-family: 'average';
+    font-size: 1.5rem;
+    padding-bottom: 10%;
+    padding-top: 1%;
+}
+
+.heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 1%;
+    border-bottom: 3px solid #222;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    font-family: 'open sans';
+}
+
+.heading h3 span {
+    font-weight: 100;
+    padding-left: 2%;
+}
+
+.heading {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.heading {
+    padding-bottom: 50px;
+}
+
+}
 
 @media only screen and (min-width: 1440px) {
     .baggrund {
@@ -123,10 +245,11 @@
     
     .artikel {
         display: flex;
+        flex-direction: column;
         align-items: center;
         width: 100%;
-        padding-left: 20%;
-        padding-right: 5%;
+        padding-left: 25%;
+        padding-right: 25%;
     }
 
     .artikel img {
@@ -137,9 +260,36 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    .artikel-boks h1 {
+        font-family: 'Open sans';
+        font-size: 3rem;
+        padding-top: 2%;
+        text-align: center;
+    }
+
+    .artikel-boks h2 {
+        font-family: 'open sans';
+        font-size: 2rem;
+        padding-bottom: 2%;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .artikel-boks h3 {
+        font-size: 2rem;
+        font-family: 'Open sans';
+    }
+
+
+    .artikel-boks p {
+        font-family: 'average';
+        font-size: 1.5rem;
+        padding-bottom: 5%;
+        padding-top: 1%;
     }
 
     .heading h3 {

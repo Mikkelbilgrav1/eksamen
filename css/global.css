@@ -141,7 +141,7 @@ body {
 .footer {
     display: flex;
     align-items: flex-start;
-    background-color: rgb(1, 17, 1);
+    background-color: #154106;
     align-content: flex-start;
     padding-top: 2%;
     padding-bottom: 1%;
@@ -210,13 +210,13 @@ body {
 
 /** BREAKPOINTS iphone 14 pro (430 px) & desktop (1440 px) **/
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 1439px) {
     .nav-menu {
         position: fixed;
         left: -100%;
         top: 0;
         flex-direction: column;
-        background-color: #bfbfbf;
+        background-color: #154106;
         width: 100%;
         height: -webkit-fill-available;
         border-radius: 0px;
@@ -270,3 +270,5 @@ body {
     }
 
 }
+
+

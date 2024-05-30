@@ -151,7 +151,7 @@ body {
 
 .logo {
     height: auto;
-    width: 15%;
+    width: 11%;
 }
 
 .logo-billede {
@@ -194,12 +194,14 @@ body {
 .instagram {
     max-width: 70px;
     height: auto;
+    margin-right: 5%;
 }
 
 .x-twitter {
     max-width: 70px;
     height: auto;
     object-fit: cover;
+    margin-right: 5%;
 }
 
 .facebook {

@@ -9,7 +9,7 @@ Open Sans
 @import url('https://fonts.googleapis.com/css2?family=Average&family=Big+Shoulders+Text:wght@100..900&family=Gruppo&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .hero-image {
-    background-image: url(../img/ol-med-logo.webp);
+    background-image: url(../img/forsidebilledeto.webp);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -22,7 +22,7 @@ Open Sans
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 11%;
+    padding-top: 20%;
 }
 
 .forside-overskrift {
@@ -34,8 +34,7 @@ Open Sans
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 5%;
-    background: aliceblue;
+    margin-top: 2%;
 }
 
 .forside-knap-tekst {
@@ -207,12 +206,12 @@ background-color: #e2e2e2;
 
     .forside {
         text-align: center;
-        padding-top: 40%;
+        padding-top: 65%;
     }
 
     .forside-overskrift {
         font-size: 3rem;
-        margin-bottom: 65%;
+        margin-bottom: 10%;
     }
 
     .forside-knap-og-tekst {
